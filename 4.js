@@ -58,5 +58,5 @@ bst.insert(15);
 bst.insert(3);
 bst.insert(7);
 
-// bst.inOrder(bst.root);
+// to print the value as left comes first then root and then left
 bst.inOrder(bst.root);
