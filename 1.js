@@ -1,6 +1,6 @@
 let firstArray = [1, 4, 5, 7, 8, 10];
 let secondArray = [2, 3, 5, 7, 14, 18];
-
+//coherrence maker function
 function coherrence(firstArray, secondArray) {
   let coherrenceArray = [];
 
@@ -15,6 +15,8 @@ function coherrence(firstArray, secondArray) {
   return coherrenceArray;
 }
 console.log(coherrence(firstArray, secondArray));
+//time complexity O(n)
+//space complexity O(n)
 
 //bubble sort
 
@@ -28,5 +30,6 @@ function bubbleSort(a) {
   }
   return a;
 }
-
+//in here time complexity is O(n^2)
+//in here space complexity is O(n)
 console.log(bubbleSort(coherrence(firstArray, secondArray)));
